@@ -6,7 +6,7 @@ Deployment-only repository for the compiled Phase 19 content console.
 - Admin route: /#/admin (existing HashRouter)
 - Hosting: GitHub Actions + GitHub Pages; deploy only site/.
 - Backend: existing Tencent CloudBase Auth/API/Worker. Server roles remain authoritative.
-- Build source: b4c31a1739088771a8cf252232077f98c0b4c7d5, branch phase19/curated-admin-console.
+- Build source: 6f44c754eda2d730098b282091deabdcc26ab9d5, branch phase19/curated-admin-console.
 - Original build command: npm run build:admin; Vite base ./ (valid at both project and domain roots).
 - Legacy deployment commit: bd3945c569606529a810e594862d4f021acf00de. Every compiled file was SHA-256 checked against the live legacy site before copying. index.html is an exact copy of admin.html.
 - Fallback: https://huwei040614.github.io/NotingWord-Releases/admin/#/admin. The Releases repository and version 1.5.0 / 10500 remain unchanged.
@@ -19,3 +19,5 @@ Phase 19 Manual Gate repair: immutable article return, revision draft hydration,
 Follow-up: category HTML validation is compatible with modern Chrome Unicode Sets, and Admin uses the existing icon to avoid a favicon 404. Targeted tests (20), SQL gate, TypeScript, Admin and production Web builds passed. Final production browser retest is pending this deployment.
 
 Import UX: source-aware progressive disclosure, collapsed permissions by default, Registry-derived LINK_ONLY declarations and explicit per-article FULLTEXT confirmation when source-wide coverage is incomplete. Backend rights guards are unchanged. Targeted tests (17), TypeScript and Admin production build passed; focused production browser verification follows deployment. Manual Admin Gate remains pending user confirmation; Phase19 is not frozen and Phase20 has not started.
+
+AI Settings: server-authorized encrypted provider profiles, editable versioned Editorial Prompt Center, isolated cache/provenance and preview-only playground. Targeted frontend (45) and backend (27) tests, TypeScript and Admin production build passed; focused production verification follows deployment. Manual Admin Gate remains pending user confirmation; Phase19 is not frozen and Phase20 has not started.
