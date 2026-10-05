@@ -6,7 +6,7 @@ Deployment-only repository for the compiled Phase 19 content console.
 - Admin route: /#/admin (existing HashRouter)
 - Hosting: GitHub Actions + GitHub Pages; deploy only site/.
 - Backend: existing Tencent CloudBase Auth/API/Worker. Server roles remain authoritative.
-- Build source: d78d52425bf3d687213237949a4042ff0aba7dc6, branch phase19/curated-admin-console.
+- Build source: 9bb015afd1fe22dba553e6013e3527810dcb2a8b, branch phase19/curated-admin-console.
 - Original build command: npm run build:admin; Vite base ./ (valid at both project and domain roots).
 - Legacy deployment commit: bd3945c569606529a810e594862d4f021acf00de. Every compiled file was SHA-256 checked against the live legacy site before copying. index.html is an exact copy of admin.html.
 - Fallback: https://huwei040614.github.io/NotingWord-Releases/admin/#/admin. The Releases repository and version 1.5.0 / 10500 remain unchanged.
@@ -31,3 +31,7 @@ AI Settings current product decision: administrator-managed cloud configuration 
 ## Source discovery post-freeze operational patch — 2026-10-05
 
 Source readiness, RSS/Atom cadence and blockers, independent access/discovery status, observed period job status and audit-reason explanations. Existing server gates and Worker code remain unchanged; NASA alone is explicitly configured for daily RSS, metadata/link candidates and human review only. Frontend targeted 34 and SQL scheduler/worker 8 tests, TypeScript and Admin production build passed. Production UI verification follows deployment. Phase19 remains PASS / FROZEN; version 1.5.0 / 10500; Phase20 NOT STARTED.
+
+## Source management UX cleanup — 2026-10-05
+
+Single audit-reason warning with focus; precise source status and all blockers in details; manual-browser sources link to existing URL import; RSS/Atom retain immediate discovery. UI only: no scheduler, Worker, rights/access, candidate or publish changes, no source configuration mutations. Targeted frontend tests 55/55, TypeScript and Admin build passed. Production verification follows deployment. Phase19 remains PASS / FROZEN; NotingWords 1.5.0 / 10500; Phase20 NOT STARTED.
