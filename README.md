@@ -6,7 +6,7 @@ Deployment-only repository for the compiled Phase 19 content console.
 - Admin route: /#/admin (existing HashRouter)
 - Hosting: GitHub Actions + GitHub Pages; deploy only site/.
 - Backend: existing Tencent CloudBase Auth/API/Worker. Server roles remain authoritative.
-- Build source: 9bb015afd1fe22dba553e6013e3527810dcb2a8b, branch phase19/curated-admin-console.
+- Build source: 731315ab72a9c796333e3ae0c13e7199fbbd18c6; Phase22 existing Admin accounts/invites integration.
 - Original build command: npm run build:admin; Vite base ./ (valid at both project and domain roots).
 - Legacy deployment commit: bd3945c569606529a810e594862d4f021acf00de. Every compiled file was SHA-256 checked against the live legacy site before copying. index.html is an exact copy of admin.html.
 - Fallback: https://huwei040614.github.io/NotingWord-Releases/admin/#/admin. The Releases repository and version 1.5.0 / 10500 remain unchanged.
@@ -35,3 +35,7 @@ Source readiness, RSS/Atom cadence and blockers, independent access/discovery st
 ## Source management UX cleanup — 2026-10-05
 
 Single audit-reason warning with focus; precise source status and all blockers in details; manual-browser sources link to existing URL import; RSS/Atom retain immediate discovery. UI only: no scheduler, Worker, rights/access, candidate or publish changes, no source configuration mutations. Targeted frontend tests 55/55, TypeScript and Admin build passed. Production verification follows deployment. Phase19 remains PASS / FROZEN; NotingWords 1.5.0 / 10500; Phase20 NOT STARTED.
+
+## Phase22 Admin accounts deployment — 2026-10-11
+
+Publishes the previously built Admin frontend with real registered-account overview, invitation rights and preserved historical invite records. Backend query RPCs are already deployed. This static deployment does not migrate data, generate or redeem invites, or publish Android. Production read-only acceptance remains pending.
