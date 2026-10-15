@@ -1,0 +1,3 @@
+/assets/mobi.worker-*.js
+  Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'
+  X-Content-Type-Options: nosniff

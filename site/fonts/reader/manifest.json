@@ -1,0 +1,74 @@
+[
+  {
+    "id": "literata",
+    "family": "NW Literata",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/literata/Literata%5Bopsz%2Cwght%5D.ttf",
+    "commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "upstreamSHA256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+    "sha256": "892d3f32bd7936c4809faecd5aa166759aba8fdd7ed5bd2e0bb1cad4ab0acfc4",
+    "bytes": 24784,
+    "glyphs": 425,
+    "license": "literata-OFL.txt",
+    "coverage": "Latin Extended + system fallback"
+  },
+  {
+    "id": "eb-garamond",
+    "family": "NW Eb Garamond",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/ebgaramond/EBGaramond%5Bwght%5D.ttf",
+    "commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "upstreamSHA256": "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027",
+    "sha256": "4452830e0ba3e06e0583866c44f81bcd056375eb2a7baa7be1ac6f1adb858811",
+    "bytes": 38836,
+    "glyphs": 586,
+    "license": "eb-garamond-OFL.txt",
+    "coverage": "Latin Extended + system fallback"
+  },
+  {
+    "id": "source-serif-4",
+    "family": "NW Source Serif 4",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/sourceserif4/SourceSerif4%5Bopsz%2Cwght%5D.ttf",
+    "commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "upstreamSHA256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+    "sha256": "32c4a40b2e2930c6974f04ad6559464eabeff6450c450d3dca85535eb659f064",
+    "bytes": 23304,
+    "glyphs": 382,
+    "license": "source-serif-4-OFL.txt",
+    "coverage": "Latin Extended + system fallback"
+  },
+  {
+    "id": "lexend",
+    "family": "NW Lexend",
+    "upstream": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/lexend/Lexend%5Bwght%5D.ttf",
+    "commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "upstreamSHA256": "3add53e641fbc81da64da4bb254285e2831b52b029527bc0714e2b9610832ee6",
+    "sha256": "4536cdb42b120a5fa8013d1dc7a678f805bc8ec6dcb71cadb0b21afcb53f91ce",
+    "bytes": 15884,
+    "glyphs": 418,
+    "license": "lexend-OFL.txt",
+    "coverage": "Latin Extended + system fallback"
+  },
+  {
+    "id": "han-serif",
+    "family": "NW Han Serif",
+    "upstream": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/OTF/SimplifiedChinese/SourceHanSerifSC-Regular.otf",
+    "commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+    "upstreamSHA256": "78aa7a328fd974df2d688c8a9fd74a33d8334dfa84ab24d9d11efb2ffc464117",
+    "sha256": "8aeac841bb86c46d22ac4c630df0b6c078730e6edd76206a780134f5a807c3e8",
+    "bytes": 3315200,
+    "glyphs": 7306,
+    "license": "han-serif-OFL.txt",
+    "coverage": "GB2312 common CJK + system fallback"
+  },
+  {
+    "id": "han-sans",
+    "family": "NW Han Sans",
+    "upstream": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+    "commit": "a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2",
+    "upstreamSHA256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+    "sha256": "15b413b36362443f1dd9ca07208adcfb65acf08df3ba4097b54224f1fb542b5d",
+    "bytes": 2443232,
+    "glyphs": 7306,
+    "license": "han-sans-OFL.txt",
+    "coverage": "GB2312 common CJK + system fallback"
+  }
+]
